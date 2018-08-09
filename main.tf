@@ -2,7 +2,6 @@ provider "google" {
   #project     = "new-project-212112"
   project     = "infra-pipeline"
   region      = "us-central1"
-  credentials = "${file("~/.config/gcloud/infra-pipeline-92924377a738.json")}"
 }
 
 resource "google_compute_instance" "default" {
