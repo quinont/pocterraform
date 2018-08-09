@@ -1,6 +1,5 @@
 provider "google" {
-  #project     = "new-project-212112"
-  project     = "infra-pipeline"
+  project     = "new-project-212112"
   region      = "us-central1"
 }
 
